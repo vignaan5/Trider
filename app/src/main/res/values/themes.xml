@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MySplashScreen" parent ="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/golden_yellow</item>
+        <item name="windowSplashScreenAnimatedIcon" >@drawable/tridersvg</item>
+        <item name="postSplashScreenTheme">@style/Theme.Trider</item>
+    </style>
+
+
+
+    <style name="Theme.Trider" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
